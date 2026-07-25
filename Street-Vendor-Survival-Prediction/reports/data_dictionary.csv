@@ -1,0 +1,21 @@
+Column Name,Data Type,Missing Values,Unique Values
+vendor_id,str,0,22000
+city,str,0,8
+zone_type,str,0,6
+vendor_age_years,float64,758,51
+years_in_business,float64,1037,2947
+food_category,str,0,10
+license_status,str,650,4
+avg_daily_revenue_inr,float64,1938,19357
+avg_daily_customers,float64,1253,369
+monthly_stall_rent_inr,float64,1110,17485
+num_helpers,int64,0,6
+hours_open_per_day,float64,442,602
+competition_within_100m,float64,884,20
+monthly_health_inspection_score,float64,7759,5707
+had_fine_last_year,float64,221,2
+avg_monthly_rainfall_mm,float64,0,14272
+season_of_observation,str,0,4
+has_online_presence,float64,193,2
+customer_complaint_rate,float64,2420,30
+vendor_survived,int64,0,2
