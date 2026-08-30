@@ -1,0 +1,64 @@
+Feature,Mean_ABS_SHAP
+avg_daily_revenue_inr,0.3865696
+revenue_category_Medium,0.22822408
+license_status_Licensed,0.17814964
+customer_complaint_rate,0.15678434
+had_fine_last_year,0.123996235
+inspection_category_Low,0.12294508
+competition_within_100m,0.09854813
+monthly_health_inspection_score,0.088148
+license_status_Pending Renewal,0.07755168
+license_status_Unlicensed,0.065606534
+revenue_per_hour,0.060400747
+has_online_presence,0.05734335
+revenue_per_customer,0.04983219
+avg_monthly_rainfall_mm,0.04568271
+years_in_business,0.039225023
+season_of_observation_Post-Monsoon,0.038717214
+rent_to_revenue_ratio,0.0384113
+monthly_stall_rent_inr,0.03632982
+vendor_age_years,0.035762116
+hours_open_per_day,0.035516374
+num_helpers,0.03299631
+avg_daily_customers,0.03179178
+customers_per_hour,0.028930733
+estimated_monthly_revenue,0.027751276
+operational_load,0.022494435
+zone_type_University Area,0.018887242
+revenue_category_High,0.018798428
+season_of_observation_Winter,0.017371017
+zone_type_Tourist Spot,0.014163051
+food_category_South Indian,0.011876583
+complaint_category_High,0.011251388
+food_category_Chaat,0.010987314
+license_status_Unknown,0.010968895
+city_Hyderabad,0.010226922
+zone_type_Residential,0.008582554
+food_category_Chinese,0.007579893
+season_of_observation_Summer,0.007441952
+competition_category_Medium,0.0067672785
+food_category_Grilled & Bbq,0.0066527827
+city_Kochi,0.0057380474
+business_experience_category_Established,0.004985286
+business_experience_category_Early_Stage,0.004825757
+inspection_category_Moderate,0.0044280374
+food_category_Fast Food,0.0041236514
+food_category_Seafood,0.004053076
+food_category_Rolls & Wraps,0.0040369364
+complaint_category_Moderate,0.0037661525
+city_Pune,0.0034094166
+city_Delhi,0.003399141
+zone_type_Industrial,0.0033806749
+food_category_North Indian,0.0033079209
+vendor_age_category_Adult,0.003108685
+city_Jaipur,0.0030248163
+city_Mumbai,0.002755605
+competition_category_High,0.0026377523
+zone_type_Transit Hub,0.0025337797
+food_category_Desserts & Sweets,0.0024846399
+city_Lucknow,0.0018596533
+vendor_age_category_Middle_Aged,0.0017388134
+inspection_category_Good,0.0015781808
+revenue_category_Very_High,0.0015564263
+business_experience_category_Experienced,0.0014302591
+vendor_age_category_Senior,0.00013915404
