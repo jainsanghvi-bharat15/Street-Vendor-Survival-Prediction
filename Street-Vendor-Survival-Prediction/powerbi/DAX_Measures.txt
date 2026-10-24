@@ -1,0 +1,54 @@
+-- Power BI DAX measures
+-- Import street_vendor_survival_cleaned.csv and rename its table to Vendors.
+-- Confirm vendor_id is unique before relying on DISTINCTCOUNT for total vendors.
+
+Total Vendors =
+DISTINCTCOUNT(Vendors[vendor_id])
+
+Survived Vendors =
+CALCULATE(
+    [Total Vendors],
+    Vendors[vendor_survived] = 1
+)
+
+Closed Vendors =
+CALCULATE(
+    [Total Vendors],
+    Vendors[vendor_survived] = 0
+)
+
+Survival Rate =
+DIVIDE([Survived Vendors], [Total Vendors], 0)
+
+Closure Rate =
+DIVIDE([Closed Vendors], [Total Vendors], 0)
+
+Average Daily Revenue =
+AVERAGE(Vendors[avg_daily_revenue_inr])
+
+Average Daily Customers =
+AVERAGE(Vendors[avg_daily_customers])
+
+Average Monthly Stall Rent =
+AVERAGE(Vendors[monthly_stall_rent_inr])
+
+Average Inspection Score (Recorded) =
+CALCULATE(
+    AVERAGE(Vendors[monthly_health_inspection_score]),
+    Vendors[monthly_health_inspection_score] > 0
+)
+
+Vendors With Online Presence =
+CALCULATE(
+    [Total Vendors],
+    Vendors[has_online_presence] = 1
+)
+
+Online Presence Rate =
+DIVIDE([Vendors With Online Presence], [Total Vendors], 0)
+
+Vendors With Recent Fine =
+CALCULATE(
+    [Total Vendors],
+    Vendors[had_fine_last_year] = 1
+)

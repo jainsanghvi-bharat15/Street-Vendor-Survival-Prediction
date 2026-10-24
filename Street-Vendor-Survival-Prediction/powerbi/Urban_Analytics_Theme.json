@@ -1,0 +1,71 @@
+{
+  "name": "Urban Analytics - Street Vendor Survival",
+  "dataColors": [
+    "#287D8E",
+    "#D65A5A",
+    "#D89B36",
+    "#172B4D",
+    "#6C8EAD",
+    "#73A89A",
+    "#8A7AAE",
+    "#AAB7C4"
+  ],
+  "background": "#E9F0F5",
+  "foreground": "#172B4D",
+  "tableAccent": "#287D8E",
+  "good": "#287D8E",
+  "neutral": "#D89B36",
+  "bad": "#D65A5A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontFace": "Segoe UI",
+            "fontSize": 13,
+            "fontColor": {
+              "solid": {
+                "color": "#172B4D"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "fontFace": "Segoe UI",
+            "color": {
+              "solid": {
+                "color": "#526579"
+              }
+            },
+            "fontSize": 10
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E9F0F5"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
