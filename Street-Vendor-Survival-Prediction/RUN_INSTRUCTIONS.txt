@@ -1,0 +1,21 @@
+1. Copy app.py and requirements.txt into your project root:
+   C:\Users\HP\3D Objects\Desktop\College\College 5th Sem\Minor Project\Street-Vendor-Survival-Prediction
+
+2. Confirm the cleaned CSV is inside:
+   datasets\processed_dataset
+
+3. Open PowerShell in the project root and run:
+   python -m pip install -r requirements.txt
+   python -m streamlit run app.py
+
+4. Streamlit will show a local URL, usually http://localhost:8501.
+   Open that URL in your browser.
+
+The app searches the processed_dataset folder for the expected cleaned filename. If
+there is exactly one CSV, it uses that file. If there are multiple CSVs, it prefers a
+filename containing "clean" but not "feature". If it cannot safely choose, it shows
+the CSV filenames it found. Rename the cleaned CSV to street_vendor_survival_cleaned.csv
+for deterministic selection.
+
+This app does not create predictions unless a real compatible trained model and feature
+metadata are present in the models folder.
